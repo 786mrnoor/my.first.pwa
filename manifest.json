@@ -1,0 +1,30 @@
+{
+    "name": "My PWA",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "black",
+    "theme_color": "black",
+    "icons": [
+      {
+        "src": "images/48x48.png",
+        "type": "image/png",
+        "sizes": "48x48",
+        "purpose": "maskable"
+      },
+      {
+        "src": "images/64x64.png",
+        "type": "image/png",
+        "sizes": "64x64"
+      },
+      {
+        "src": "images/128x128.png",
+        "type": "image/png",
+        "sizes": "128x128"
+      },
+      {
+        "src": "images/512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
