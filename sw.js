@@ -1,9 +1,9 @@
 const cacheName = 'v3';
 const cacheFiles = [
-    "/",
-    "/index.html",
-    "/style.css",
-    "/script.js",
+    "/my.first.pwa/",
+    "/my.first.pwa/index.html",
+    "/my.first.pwa/style.css",
+    "/my.first.pwa/script.js",
 ];
 
 
