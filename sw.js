@@ -2,6 +2,7 @@ const cacheName = 'v1';
 const cacheFiles = [
     "/",
     "/index.html",
+    "/test.html",
     "/style.css",
     "/script.js",
 ];
