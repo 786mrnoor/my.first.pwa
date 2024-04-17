@@ -9,8 +9,14 @@ const cacheFiles = [
 
 const addResourcesToCache = async (resources) => {
     console.log(caches);
-    const cache = await caches.open(cacheName);
-    await cache.addAll(resources);
+    try {
+        const cache = await caches.open(cacheName);
+        await cache.addAll(resources);
+    }
+    catch (err) {
+        console.log(err);
+        console.log(err.message);
+    }
 };
 
 self.addEventListener("install", (event) => {
